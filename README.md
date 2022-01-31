@@ -12,4 +12,4 @@ The users can:
 - **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer  ([Shout-out to Sheldon Cooper](https://www.youtube.com/watch?v=Mk03NsUZfw0))
 
 ## Examples of the game
-![alt text](https://github.com/[sonyachuyeva]/[Rock_Paper_Scissors]/blob/[main]/Main_screen.png?raw=true)
+![pgp](./images/Main_screen.png)
