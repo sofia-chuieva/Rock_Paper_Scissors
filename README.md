@@ -11,6 +11,9 @@ The users can:
 - View the rules
 - **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer  ([Shout-out to Sheldon Cooper](https://www.youtube.com/watch?v=Mk03NsUZfw0))
 
+## Visit the website
+[Welcome to my game](https://sonyachuyeva.github.io/Rock_Paper_Scissors/)
+
 ## Examples of the game
 
 ### First screen
