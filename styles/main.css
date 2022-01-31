@@ -95,7 +95,7 @@ main{
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./images/bg-triangle.svg);
+    background-image: url(../images/bg-triangle.svg);
     height: 25rem;
     width: 35rem;
    
@@ -103,7 +103,7 @@ main{
 }
 
 .advanced-playground{
-    background-image: url(./images/bg-pentagon.svg);
+    background-image: url(../images/bg-pentagon.svg);
     position: relative;
 }
 
