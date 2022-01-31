@@ -18,3 +18,6 @@ The users can:
 
 ### Rules
 ![phot](./images/Rules1.png)
+
+### Selection display
+![f](./images/Select.png)
