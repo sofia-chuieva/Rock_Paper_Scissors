@@ -15,3 +15,6 @@ The users can:
 
 ### First screen
 ![pgp](./images/Main_screen.png)
+
+### Rules
+![phot](./images/Rules1.png)
