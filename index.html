@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" href="/images/favicon.ico">
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+
+ <div class="container">
+
+  
+   <header>
+     <h1>
+       <span>Rock</span>
+       <span>Paper</span>
+       <span>Scissors</span>
+       <span id='lizard'>Lizard</span>
+       <span id='spock'>Spock</span>
+     </h1>
+     <div class="score-container">
+       <h4>Score</h4>
+       <p id="score">0</p>
+      </div>
+   </header>
+
+
+   
+   <main  id='main'>
+
+       <button class='btn-circle btn-paper' data-choice='paper'>
+         <span class="wrapper">
+          <img src="/images/icon-paper.svg" alt="">
+         </span>
+      </button>
+
+       <button class='btn-circle btn-scissors' data-choice='scissors'>
+         <span class="wrapper">
+          <img src="/images/icon-scissors.svg" alt="">
+         </span>
+        </button>
+
+       <button class='btn-circle btn-rock' data-choice='rock'>
+         <span class="wrapper">
+          <img src="/images/icon-rock.svg" alt="">
+         </span>
+        </button>
+
+        <button class='btn-circle btn-spock' data-choice='spock'>
+            <span class="wrapper">
+             <img src="/images/icon-spock.svg" alt="">
+            </span>
+        </button>
+
+        <button class='btn-circle btn-lizard'  data-choice='lizard'>
+            <span class="wrapper">
+             <img src="/images/icon-lizard.svg" alt="">
+            </span>
+        </button>
+
+   </main>
+   
+   
+   <div class='selection' id='selection'>
+     <div>
+       <h2>You picked</h2>
+       <button class='btn-circle btn-paper ' id='user-select' disabled>
+        <span class="wrapper">
+         <img src="/images/icon-paper.svg" alt="">
+        </span>
+     </button>
+     </div>
+
+     <div class='go-down'>
+       <p class='big-text'>YOU <span id="win">WIN</span></p>
+       <button id='play-again' class='btn-reset'>Play again</button>
+     </div>
+
+     <div>
+       <h2>Computer picked</h2>
+       <button class='btn-circle btn-rock ' id='computer-select' disabled>
+        <span class="wrapper">
+         <img src="/images/icon-rock.svg" alt="">
+        </span>
+       </button>
+
+     </div>
+   </div>
+
+   <!--POPUP-->
+   <div id="modal_bg">
+       <div id="modal">
+         <img src="/images/icon-close.svg" alt="close_popup" id="close-modal">
+         <img src="" alt="rules" id='rules-img'>
+       </div>
+   </div>
+
+   <footer>
+    <button class='btn-advanced btn'>Advanced</button>
+    <div>
+      <button id='btn-reset-score' class="btn-reset-score btn">Reset score</button>
+      <button id='btn-rules' class='btn'>Rules</button>
+    </div>
+   </footer>
+ 
+
+
+ </div>
+     
+
+</body>
+<script src="/scripts/script.js"></script>
+</html>
