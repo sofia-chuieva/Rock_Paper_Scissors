@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors
 
-I am a big fan of The Big Bang Theory, so I had an urge to create game,which was mentioned there in a fancy style, so thanks to [Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH), which provided the icons and colors, it happened.
+I am a big fan of The Big Bang Theory, so I had an urge to create a game, which was mentioned there, in a fancy style, so thanks to [Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH), which provided the icons and colors, it happened.
 
 ## The challenge
 
