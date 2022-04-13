@@ -42,7 +42,8 @@ changeModeBtn.addEventListener('click', () => {
     if(!main.classList.contains('advanced-playground')){
         changeModeBtn.innerText = 'Normal'
         container.classList.toggle('advanced');
-        scoreElement.innerText = 0;
+        score = 0;
+        scoreElement.innerText = score;
 
         main.classList.toggle('advanced-playground');
             
@@ -51,7 +52,8 @@ changeModeBtn.addEventListener('click', () => {
         
         changeModeBtn.innerText = 'Advanced'
         container.classList.toggle('advanced');
-        scoreElement.innerText = 0;
+        score = 0;
+        scoreElement.innerText = score;
         
         main.classList.toggle('advanced-playground');
     }
